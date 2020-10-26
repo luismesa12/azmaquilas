@@ -1,0 +1,65 @@
+// Colores
+$backgroundColorPrimary:  rgb(240, 240, 240);
+$backgroundColorSecondary:  rgb(248, 248, 248);
+// Fuentes
+$fontPrimary: "Poppins", sans-serif;
+$fontLogo: "Audiowide", cursive;
+$fontOpacitySpcial: 70%;
+//botones
+$borderRadiusBotonPrimary: 50px;
+//paddings
+$paddingTopMenuFixed: 3.5rem;
+
+
+body {
+    padding-top: $paddingTopMenuFixed;
+    background-color: $backgroundColorPrimary;
+    header{
+        font-family: $fontPrimary;
+        nav{
+            .azlogo{
+            font-family: $fontLogo;
+            }
+            .azMenu{
+                li{
+                    a{
+                    }
+                }
+            }
+        }
+        
+        .carousel-caption{
+            top: 0;
+            opacity: $fontOpacitySpcial;
+            text-align: end;
+        }
+        }
+    main{
+        background-image: url(../imgs/35831.jpg);
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+
+        font-family: $fontPrimary;
+
+        .par{
+            background-color: $backgroundColorSecondary;
+        }
+        .botonSection{
+            border-radius: $borderRadiusBotonPrimary;
+        }
+        .cabeceraGaleria{
+            
+        }
+        .azgaleria{
+            img{
+                transition: 0.5s;
+            }
+            img:hover{
+                box-shadow: 1px 1px 10px black;
+                transform: scale(1.05);        
+            }
+        }
+    }
+
+}

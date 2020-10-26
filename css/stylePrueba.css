@@ -1,0 +1,47 @@
+body {
+  padding-top: 3.5rem;
+  background-color: #f0f0f0;
+}
+
+body header {
+  font-family: "Poppins", sans-serif;
+}
+
+body header nav .azlogo {
+  font-family: "Audiowide", cursive;
+}
+
+body header .carousel-caption {
+  top: 0;
+  opacity: 70%;
+  text-align: end;
+}
+
+body main {
+  background-image: url(../imgs/35831.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+body main .par {
+  background-color: #f8f8f8;
+}
+
+body main .botonSection {
+  border-radius: 50px;
+}
+
+body main .azgaleria img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main .azgaleria img:hover {
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=stylePrueba.css.map */
