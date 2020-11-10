@@ -31,16 +31,56 @@ body main #contact ul li a .fa {
 }
 
 body {
-  padding-top: 3.5rem;
   background-color: #f0f0f0;
+  color: #122046;
 }
 
 body header {
   font-family: "Poppins", sans-serif;
 }
 
-body header nav .azlogo {
+body header #menu {
+  padding: 20px 30px;
+  background: #122046;
+}
+
+body header #menu .azlogo {
   font-family: "Audiowide", cursive;
+}
+
+body header #inicioMaquila {
+  height: 100vh;
+  background-color: #12204686;
+  position: relative;
+  overflow: hidden;
+}
+
+body header #inicioMaquila video {
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  position: absolute;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body header #inicioMaquila .itemsInicio {
+  height: 100%;
+}
+
+body header #inicioMaquila .itemsInicio h1 {
+  color: rgba(255, 255, 255, 0.795);
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+
+body header #inicioMaquila .itemsInicio .botonPrincipal {
+  border-radius: 50px;
 }
 
 body header .carousel-caption {
@@ -50,6 +90,7 @@ body header .carousel-caption {
 }
 
 body main {
+  padding-top: 3.5rem;
   background-image: url(../imgs/35831.jpg);
   background-size: cover;
   background-position: top;

@@ -38,22 +38,54 @@ $paddingTopMenuFixed: 3.5rem;
 }
 
 body {
-    padding-top: $paddingTopMenuFixed;
+    // padding-top: $paddingTopMenuFixed;
     background-color: $backgroundColorPrimary;
+    color: #122046;
     header{
         font-family: $fontPrimary;
-        nav{
+        #menu{
+            padding: 20px 30px;
+            background: #122046;
             .azlogo{
             font-family: $fontLogo;
             }
             .azMenu{
                 li{
                     a{
+                      
                     }
                 }
             }
         }
-        
+        #inicioMaquila{
+            height: 100vh;
+            background-color: #12204686;
+            position: relative;
+            overflow: hidden;
+            video{
+                min-width: 100%;
+                min-height: 100%;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                z-index: -1 ;
+                position: absolute;
+                filter: grayscale(100%);
+            }
+            .itemsInicio{
+                height: 100%;
+                h1{
+                    color: rgba(255, 255, 255, 0.795);
+                    font-size: 55px;
+                    font-weight: 700;
+                    margin: 20px 0 20px 0;
+                }
+                .botonPrincipal{
+                    border-radius: $borderRadiusBotonPrimary;
+                }
+            }
+            
+        }
         .carousel-caption{
             top: 0;
             opacity: $fontOpacitySpcial;
@@ -61,6 +93,7 @@ body {
         }
         }
     main{
+        padding-top: $paddingTopMenuFixed;
         background-image: url(../imgs/35831.jpg);
         background-size: cover;
         background-position: top;
