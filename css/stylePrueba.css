@@ -109,6 +109,8 @@ body main .botonSection {
 body main .azgaleria img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 body main .azgaleria img:hover {
@@ -116,6 +118,8 @@ body main .azgaleria img:hover {
           box-shadow: 1px 1px 10px black;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 body main #equipo {
@@ -187,5 +191,9 @@ body main #equipo .imgEquipo .imgCaja ul li:hover {
 
 body main #equipo .imgEquipo .imgCaja:hover ul {
   opacity: 1;
+}
+
+body footer {
+  background: #122046;
 }
 /*# sourceMappingURL=stylePrueba.css.map */

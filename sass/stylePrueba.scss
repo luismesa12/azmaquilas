@@ -36,6 +36,10 @@ $paddingTopMenuFixed: 3.5rem;
         }                 
     }    
 }
+//imagen
+%imagenDeGrisAColor{
+    
+}
 
 body {
     // padding-top: $paddingTopMenuFixed;
@@ -113,10 +117,12 @@ body {
         .azgaleria{
             img{
                 transition: 0.5s;
+                filter: grayscale(1);
             }
             img:hover{
                 box-shadow: 1px 1px 10px black;
-                transform: scale(1.05);        
+                transform: scale(1.05); 
+                filter: grayscale(0);       
             }
    
         }
@@ -145,7 +151,7 @@ body {
                     &:hover img{
                         filter: grayscale(0);
                         transition: 0.3s;
-                        
+     
                     }
                     ul{
                         padding: 15px 0;
@@ -178,7 +184,11 @@ body {
         } 
         #contact{
             @extend %listaRedesSociales; 
-        }    
+        }
+ 
     }
+    footer{
+        background: #122046;
+    }    
 
 }
