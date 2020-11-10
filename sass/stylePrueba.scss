@@ -36,10 +36,7 @@ $paddingTopMenuFixed: 3.5rem;
         }                 
     }    
 }
-//imagen
-%imagenDeGrisAColor{
-    
-}
+//------------------------------------------------//
 
 body {
     // padding-top: $paddingTopMenuFixed;
@@ -53,13 +50,7 @@ body {
             .azlogo{
             font-family: $fontLogo;
             }
-            .azMenu{
-                li{
-                    a{
-                      
-                    }
-                }
-            }
+  
         }
         #inicioMaquila{
             height: 100vh;
@@ -111,9 +102,7 @@ body {
         .botonSection{
             border-radius: $borderRadiusBotonPrimary;
         }
-        .cabeceraGaleria{
-            
-        }
+
         .azgaleria{
             img{
                 transition: 0.5s;
