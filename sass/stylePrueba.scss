@@ -1,6 +1,7 @@
 // Colores
 $backgroundColorPrimary:  rgb(240, 240, 240);
 $backgroundColorSecondary:  rgb(248, 248, 248);
+$brandColor: #122046;
 // Fuentes
 $fontPrimary: "Poppins", sans-serif;
 $fontLogo: "Audiowide", cursive;
@@ -24,12 +25,12 @@ $paddingTopMenuFixed: 3.5rem;
             a{
                 text-decoration: none;
                 .fa{
-                    height: 30px;
-                    width: 30px;
+                    height: 40px;
+                    width: 40px;
                     border-style: solid;
-                    background-color: gray;
+                    background-color: $brandColor;
                     color: white;
-                    padding: 4.5px;
+                    padding: 9.5px;
                     border-radius: 50%;
                 }               
             }
@@ -41,12 +42,12 @@ $paddingTopMenuFixed: 3.5rem;
 body {
     // padding-top: $paddingTopMenuFixed;
     background-color: $backgroundColorPrimary;
-    color: #122046;
+    color: $brandColor;
     header{
         font-family: $fontPrimary;
         #menu{
             padding: 20px 30px;
-            background: #122046;
+            background: $brandColor;
             .azlogo{
             font-family: $fontLogo;
             }
@@ -177,7 +178,7 @@ body {
  
     }
     footer{
-        background: #122046;
+        background: $brandColor;
     }    
 
 }
