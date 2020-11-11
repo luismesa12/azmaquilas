@@ -106,6 +106,37 @@ body main .botonSection {
   border-radius: 50px;
 }
 
+body main #pilares {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.781)), to(rgba(12, 30, 112, 0.808))), url(../imgs/galeria/2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(12, 30, 112, 0.808)), url(../imgs/galeria/2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+}
+
+body main #pilares h1 {
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+
+body main #pilares .pilares {
+  margin-top: 40px;
+}
+
+body main #pilares .pilares .icon {
+  font-size: 100px;
+  margin: 0px auto;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+body main #pilares .pilares p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: white;
+}
+
 body main .azgaleria img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -131,7 +162,7 @@ body main #equipo .fa {
   height: 28px;
   width: 28px;
   border-style: solid;
-  background-color: gray;
+  background-color: #122046;
   color: white;
   padding: 4px 3px 3px 3px;
   border-radius: 50%;

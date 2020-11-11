@@ -103,7 +103,36 @@ body {
         .botonSection{
             border-radius: $borderRadiusBotonPrimary;
         }
-
+        #pilares
+        {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.781),rgba(12, 30, 112, 0.808)),url(../imgs/galeria/2.jpg);
+            background-size: cover;
+            background-position: center;
+            color: #efefef !important;
+            background-attachment: fixed;
+            
+            h1{
+                text-align: center;
+                color: #efefef !important;
+                padding-bottom: 10px;
+            }
+            .pilares{
+                margin-top: 40px;
+                .icon
+                {
+                    font-size: 100px;
+                    margin: 0px auto;
+                    color: rgba(255, 255, 255, 0.596);
+                }
+                p
+                {
+                    font-size: 14px;
+                    margin-top: 20px;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+               
         .azgaleria{
             img{
                 transition: 0.5s;
@@ -123,7 +152,7 @@ body {
                 height: 28px;
                 width: 28px;
                 border-style: solid;
-                background-color: gray;
+                background-color: $brandColor;
                 color: white;
                 padding: 4px 3px 3px 3px;
                 border-radius: 50%;
