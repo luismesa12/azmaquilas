@@ -9,7 +9,7 @@ $fontOpacitySpcial: 70%;
 //botones
 $borderRadiusBotonPrimary: 50px;
 //paddings
-$paddingTopMenuFixed: 3.5rem;
+$paddingTopMenuFixed: 2em;
 //Redes Sociales
 %listaRedesSociales {
     ul{
@@ -40,7 +40,6 @@ $paddingTopMenuFixed: 3.5rem;
 //------------------------------------------------//
 
 body {
-    // padding-top: $paddingTopMenuFixed;
     background-color: $backgroundColorPrimary;
     color: $brandColor;
     header{
@@ -103,6 +102,9 @@ body {
         .botonSection{
             border-radius: $borderRadiusBotonPrimary;
         }
+        #servicios{
+            padding-top: $paddingTopMenuFixed;
+        }
         #pilares
         {
             background-image: linear-gradient(rgba(0, 0, 0, 0.781),rgba(12, 30, 112, 0.808)),url(../imgs/galeria/2.jpg);
@@ -133,7 +135,9 @@ body {
             }
         }
                
-        .azgaleria{
+        #azgaleria{
+            padding-top: $paddingTopMenuFixed;
+
             img{
                 transition: 0.5s;
                 filter: grayscale(1);
@@ -146,17 +150,8 @@ body {
    
         }
         #equipo{
-            padding-top: 50px;
-            padding-bottom: 50px;
-            .fa{
-                height: 28px;
-                width: 28px;
-                border-style: solid;
-                background-color: $brandColor;
-                color: white;
-                padding: 4px 3px 3px 3px;
-                border-radius: 50%;
-            }
+            padding-top: $paddingTopMenuFixed;
+
             .imgEquipo{
                 margin-top: 25px;
                 .imgCaja{
@@ -188,6 +183,15 @@ body {
                             padding: 5px;
                             display: inline-block;
                             transition: 1s;
+                            .fa{
+                                height: 28px;
+                                width: 28px;
+                                border-style: solid;
+                                background-color: $brandColor;
+                                color: white;
+                                padding: 4px 3px 3px 3px;
+                                border-radius: 50%;
+                            }
                             &:hover{
                                 opacity: 0.8;
                                 transform: scale(1.5);
@@ -201,7 +205,8 @@ body {
             }    
 
         } 
-        #contact{
+        #contacto{
+            padding-top: $paddingTopMenuFixed;
             @extend %listaRedesSociales; 
         }
  
