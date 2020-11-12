@@ -22,20 +22,19 @@
 <body>
   <header>
     <!-- Menu de Navegación -->
-    <nav id="menu" class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <nav id="menu" class="nav navbar navbar-expand-lg fixed-top navbar-dark">
 
       <a class="azlogo navbar-brand mb-0 h1 text-light" href="#">AZmaquilas</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto text-center azMenu">
-          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
-          <li class="nav-item"><a class="nav-link" href="#azgaleria">Galería</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        <ul class="nav navbar-nav ml-auto text-center" >
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarNav"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarNav"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarNav"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarNav"><a class="nav-link" href="#azgaleria">Galería</a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarNav"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
 
       </div>
@@ -655,23 +654,28 @@
       </div>
       <div class="container p-3">
         <div class="row text-center">
+          <div class="col-4"> <i class="far fa-laugh-wink fa-4x pb-1"></i></div>
+          <div class="col-4"> <i class="far fa-handshake fa-4x pb-1"></i></div>
+          <div class="col-4"> <i class="fas fa-wind fa-4x pb-1"></i></div>
+        </div>
+        <div class="row text-center">
           <div class="col-sm-12 col-md-4">
-            <div> <i class="far fa-laugh-wink fa-4x pb-1"></i></div>
+            
             <h6>•Amabilidad•</h6>
           </div>
           <div class="col-sm-12 col-md-4">
-            <div> <i class="far fa-handshake fa-4x pb-1"></i></div>
+            
             <h6>•Respeto•</h6>
           </div>
           <div class="col-sm-12 col-md-4">
-            <div> <i class="fas fa-wind fa-4x pb-1"></i></div>
+            
             <h6>•Diligencia•</h6>
           </div>
         </div>
       </div>
 
 
-      <div class="container pb-4 pt-2">
+      <div id="informacion" class="container pb-4 pt-md-4">
 
         <div class="row">
           <div class="col-md-6 pb-3">
@@ -808,6 +812,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
   <script>
     baguetteBox.run('#azgaleria', { animation: 'slideIn' });
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
   </script>
 </body>
 
