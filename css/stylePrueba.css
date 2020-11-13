@@ -1,35 +1,3 @@
-body main #contacto ul {
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main #contacto ul li {
-  padding: 5px;
-  display: inline-block;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-body main #contacto ul li:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
-body main #contacto ul li a {
-  text-decoration: none;
-}
-
-body main #contacto ul li a .fa {
-  height: 40px;
-  width: 40px;
-  border-style: solid;
-  background-color: #122046;
-  color: white;
-  padding: 9.5px;
-  border-radius: 50%;
-}
-
 body {
   background-color: #f0f0f0;
   color: #122046;
@@ -79,6 +47,12 @@ body header #inicioMaquila .itemsInicio h1 {
   margin: 20px 0 20px 0;
 }
 
+@media (max-width: 767.98px) {
+  body header #inicioMaquila .itemsInicio h1 {
+    font-size: 40px;
+  }
+}
+
 body header #inicioMaquila .itemsInicio .botonPrincipal {
   border-radius: 50px;
 }
@@ -98,16 +72,55 @@ body main {
   font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 767.98px) {
+  body main h2, body main h3 {
+    font-size: 1.6em;
+  }
+  body main h4, body main h5 {
+    font-size: 1.3em;
+  }
+}
+
 body main .par {
   background-color: #f8f8f8;
 }
 
 body main .botonSection {
   border-radius: 50px;
+  color: #122046;
+}
+
+body main .botonSection:hover {
+  background-color: #122046;
 }
 
 body main #servicios {
   padding-top: 2em;
+}
+
+@media (max-width: 767.98px) {
+  body main #servicios {
+    padding-top: 0;
+  }
+  body main #servicios .emcabezadoMovil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 99vh;
+    font-size: 3.5vh;
+    margin: 0;
+    padding: 0;
+  }
+  body main #servicios .cartasServicios h3 {
+    font-size: 1.2em;
+  }
 }
 
 body main #pilares {
@@ -145,6 +158,28 @@ body main #azgaleria {
   padding-top: 2em;
 }
 
+@media (max-width: 767.98px) {
+  body main #azgaleria {
+    padding-top: 0;
+  }
+  body main #azgaleria .emcabezadoMovil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 99vh;
+    font-size: 3.5vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 body main #azgaleria img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -163,6 +198,28 @@ body main #azgaleria img:hover {
 
 body main #equipo {
   padding-top: 2em;
+}
+
+@media (max-width: 767.98px) {
+  body main #equipo {
+    padding-top: 0;
+  }
+  body main #equipo .emcabezadoMovil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 99vh;
+    font-size: 3.5vh;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 body main #equipo .imgEquipo {
@@ -233,6 +290,81 @@ body main #equipo .imgEquipo .imgCaja:hover ul {
 
 body main #contacto {
   padding-top: 2em;
+}
+
+@media (max-width: 767.98px) {
+  body main #contacto {
+    padding-top: 0;
+  }
+  body main #contacto .emcabezadoMovil {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 100vh;
+    font-size: 3.5vh;
+    margin: 0;
+    padding: 0;
+  }
+  body main #contacto #formulario {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 100vh;
+    font-size: 3.5vh;
+    padding-top: 2em;
+  }
+}
+
+@media (min-width: 767.99px) {
+  body main #contacto #masInfo {
+    padding: 100px 0 !important;
+  }
+}
+
+body main #contacto ul {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body main #contacto ul li {
+  padding: 5px;
+  display: inline-block;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body main #contacto ul li:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body main #contacto ul li a {
+  text-decoration: none;
+}
+
+body main #contacto ul li a .fa {
+  height: 40px;
+  width: 40px;
+  border-style: solid;
+  background-color: #122046;
+  color: white;
+  padding: 9.5px;
+  border-radius: 50%;
 }
 
 body footer {

@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="css/stylePrueba.css">
 </head>
 
@@ -45,9 +46,9 @@
       <video src="videos/fab1.mp4" autoplay loop muted="muted" poster="imgs/galeria/12.jpg"></video>
       <div class="itemsInicio d-flex align-items-center text-light text-center">
         <div class="container ">
-          <h1>¿ Estás Preparado Para Mejorar ?</h1>
+          <h1 class="wow animate__animated animate__zoomInDown animate__slow">¿ Estás Preparado Para Mejorar ?</h1>
 
-          <a href="#contacto" class="botonPrincipal btn btn-lg btn-outline-light">Agenda Una Asesoría Al Instante
+          <a href="#masInfo" class="botonPrincipal btn btn-lg btn-outline-light wow animate__animated animate__pulse animate__infinite	animate__slow">Agenda Una Asesoría Al Instante
             ➜</a>
 
         </div>
@@ -60,8 +61,8 @@
   <main>
     <section class="container impar">
       <div class="row p-2">
-        <div class="col-sm-12 col-md-6 align-self-center text-center">
-          <h2 class="sideText mainSectionTitle">
+        <div class="col-sm-12 col-md-6 align-self-center text-center wow animate__animated animate__fadeInLeft">
+          <h2 class="sideText mainSectionTitle ">
             Administramos Procesos Productivos
           </h2>
           <p class="sideText">
@@ -71,14 +72,14 @@
             <a href="#contacto" class="botonSection btn  btn-outline-secondary m-4">Más Info ➜</a>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 wow animate__animated animate__fadeInRight">
           <img class="img-fluid" src="imgs\1.svg" alt="Equipo de Ingenieros" />
         </div>
       </div>
     </section>
-    <section class="container-fluid par">
-      <div class="container ">
-        <div class="row p-2">
+    <section class="container-fluid par ">
+      <div class="container wow animate__animated animate__pulse animate__delay-1s	">
+        <div class="row p-2 ">
           <div class="col-sm-12 col-md-6 order-md-0 order-1">
             <img class="img-fluid" src="imgs\3.svg" alt="Optimización de Procesos" />
           </div>
@@ -98,7 +99,7 @@
     </section>
     <section class="container impar">
       <div class="row p-2">
-        <div class="col-sm-12 col-md-6 align-self-center text-center">
+        <div class="col-sm-12 col-md-6 align-self-center text-center wow animate__animated animate__fadeInLeft " data-wow-offset="200">
           <h2 class="sideText mainSectionTitle">
             Capacitamos Equipos Productivos
           </h2>
@@ -109,39 +110,43 @@
             <a href="#contacto" class="botonSection btn  btn-outline-secondary m-4">Más Info ➜</a>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 wow animate__animated animate__fadeInRight" data-wow-offset="200">
           <img class="img-fluid" src="imgs\2.svg" alt="Gráfica Ingenieros" />
         </div>
       </div>
     </section>
     <!-- ----------------- -->
         <!--  -->
+        
         <div id="servicios" class="container text-center">
-          <div class="text-center pt-4 mt-5">
-            <h1>
-              Servicios
-            </h1>
-            <h6>
-              - Cumplimos! Nuestra Meta Es Clara -
-            </h6>
-          </div>
-          <div class="container p-3">
-            <div class="row text-center">
-              <div class="col-sm-12 col-md-4">
-                <div> <i class="fa fa-line-chart fa-4x pb-1"></i></div>
-                <h6>•Eficiencia•</h6>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                <div> <i class="fa fa-bar-chart fa-4x pb-1"></i></div>
-                <h6>•Eficacia•</h6>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                <div> <i class="fa fa-check-square-o fa-4x pb-1"></i></div>
-                <h6>•Calidad•</h6>
+          <div class="emcabezadoMovil">
+            <div class="text-center pt-4 mt-5">
+              <h1>
+                Servicios
+              </h1>
+              <h6>
+                - Cumplimos! Nuestra Meta Es Clara -
+              </h6>
+            </div>
+            <div class=" iconMovil container p-3">
+              <div class="row text-center">
+                <div class="col-sm-12 col-md-4">
+                  <div> <i class="fa fa-line-chart fa-4x pb-1"></i></div>
+                  <h6>•Eficiencia•</h6>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div> <i class="fa fa-bar-chart fa-4x pb-1"></i></div>
+                  <h6>•Eficacia•</h6>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div> <i class="fa fa-check-square-o fa-4x pb-1"></i></div>
+                  <h6>•Calidad•</h6>
+                </div>
               </div>
             </div>
           </div>
-          <div class="row pt-3 pb-3">
+
+          <div class="cartasServicios row pt-3 pb-3">
             <div class="col">
               <div class="card-columns">
                 <div class="card">
@@ -276,35 +281,38 @@
     <!-- ----------------- -->
 
     <section id="equipo">
-      <div class=" text-center pt-4 mt-5">
-        <h1>
-          Nuestro Equipo
-        </h1>
-        <h6>
-          - Ellos Lo Hacen Realidad -
-        </h6>
-      </div>
-      <div class="container p-3">
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-4">
-            <div> <i class="fa fa-gratipay fa-4x pb-1"></i></div>
-            <h6>•Pasión•</h6>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div> <i class="fas fa-user-plus fa-4x pb-1"></i></div>
-            <h6>•Experiencia•</h6>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div> <i class="fas fa-hands fa-4x pb-1"></i></div>
-            <h6>•Confianza•</h6>
+      <div class="emcabezadoMovil">
+        <div class=" text-center pt-4 mt-5">
+          <h1>
+            Nuestro Equipo
+          </h1>
+          <h6>
+            - Ellos Lo Hacen Realidad -
+          </h6>
+        </div>
+        <div class="container p-3">
+          <div class="row text-center">
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fa fa-gratipay fa-4x pb-1"></i></div>
+              <h6>•Pasión•</h6>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fas fa-user-plus fa-4x pb-1"></i></div>
+              <h6>•Experiencia•</h6>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fas fa-hands fa-4x pb-1"></i></div>
+              <h6>•Confianza•</h6>
+            </div>
           </div>
         </div>
       </div>
+
       <div class="container">
         <div class="row">
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3  imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/1.png" class="img-responsive" alt="">
+              <img src="imgs/equipo/1.png" class="img-fluid" alt="">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -321,9 +329,9 @@
             <h4>Gerente</h4>
             <p>Esta es la descripción de los colaboradores de Azmaquilas</p>
           </div>
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/2.png" class="img-responsive" alt="Jefe Logística">
+              <img src="imgs/equipo/2.png" class="img-fluid" alt="Jefe Logística">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -340,9 +348,9 @@
             <h4>Jefe Logística</h4>
             <p>Esta es la descripción de los colaboradores de Azmaquilas</p>
           </div>
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/3.png" class="img-responsive" alt="Jefe Producción">
+              <img src="imgs/equipo/3.png" class="img-fluid" alt="Jefe Producción">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -359,9 +367,9 @@
             <h4>Jefe Producción</h4>
             <p>Esta es la descripción de los colaboradores de Azmaquilas</p>
           </div>
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/4.png" class="img-responsive" alt="Jefe Consultoría">
+              <img src="imgs/equipo/4.png" class="img-fluid" alt="Jefe Consultoría">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -380,9 +388,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/5.png" class="img-responsive" alt="Jefe Talento">
+              <img src="imgs/equipo/5.png" class="img-fluid" alt="Jefe Talento">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -399,9 +407,9 @@
             <h4>Jefe Talento</h4>
             <p>Esta es la descripción de los colaboradores de Azmaquilas</p>
           </div>
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/6.png" class="img-responsive" alt="Lider Consultoría">
+              <img src="imgs/equipo/6.png" class="img-fluid" alt="Lider Consultoría">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -418,9 +426,9 @@
             <h4>Lider Consultoría</h4>
             <p>Esta es la descripción de los colaboradores de Azmaquilas</p>
           </div>
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/7.png" class="img-responsive" alt="Lider Producción">
+              <img src="imgs/equipo/7.png" class="img-fluid" alt="Lider Producción">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -437,9 +445,9 @@
             <h4>Lider Producción</h4>
             <p>Esta es la descripción de los colaboradores de Azmaquilas</p>
           </div>
-          <div class="col-md-3 imgEquipo text-center">
+          <div class="col-md-6 col-lg-3 imgEquipo text-center">
             <div class="imgCaja">
-              <img src="imgs/equipo/8.png" class="img-responsive" alt="Lider Logística">
+              <img src="imgs/equipo/8.png" class="img-fluid" alt="Lider Logística">
               <ul>
                 <a href="#">
                   <li><i class="fa fa-linkedin"></i></li>
@@ -511,31 +519,34 @@
 
     <!-- galeria -->
     <section id="azgaleria">
-      <div class="text-center pt-4 mt-5">
-        <h1>
-          Galería
-        </h1>
-        <h6>
-          - Las Condiciones de Trabajo Importan -
-        </h6>
-      </div>
-
-      <div class="container p-3">
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-4">
-            <div> <i class="fas fa-user-shield fa-4x pb-1"></i></div>
-            <h6>•Administradores•</h6>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div> <i class="fas fa-hard-hat fa-4x pb-1"></i></div>
-            <h6>•Ingenieros•</h6>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div> <i class="fas fa-user-tie fa-4x pb-1"></i></div>
-            <h6>•Profesionales•</h6>
+      <div class="emcabezadoMovil">
+        <div class="text-center pt-4 mt-5">
+          <h1>
+            Galería
+          </h1>
+          <h6>
+            - Las Condiciones de Trabajo Importan -
+          </h6>
+        </div>
+  
+        <div class="container p-3">
+          <div class="row text-center">
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fas fa-user-shield fa-4x pb-1"></i></div>
+              <h6>•Administradores•</h6>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fas fa-hard-hat fa-4x pb-1"></i></div>
+              <h6>•Ingenieros•</h6>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fas fa-user-tie fa-4x pb-1"></i></div>
+              <h6>•Profesionales•</h6>
+            </div>
           </div>
         </div>
       </div>
+      
 
       <div class="container pt-3">
 
@@ -636,41 +647,39 @@
     <!--  ------------------ -->
 
     <div id="contacto">
-      <div class=" text-center pt-4 mt-5">
-        <h1>
-          Contacto
-        </h1>
-        <h6>
-          - Escuchamos Con Atención Y Respondemos Con Valor -
-        </h6>
-      </div>
-      <div class="container p-3">
-        <div class="row text-center">
-          <div class="col-4"> <i class="far fa-laugh-wink fa-4x pb-1"></i></div>
-          <div class="col-4"> <i class="far fa-handshake fa-4x pb-1"></i></div>
-          <div class="col-4"> <i class="fas fa-wind fa-4x pb-1"></i></div>
+      <div class="emcabezadoMovil">
+        <div class=" text-center pt-4 mt-5 ">
+          <h1>
+            Contacto
+          </h1>
+          <h6>
+            - Escuchamos Con Atención Y Respondemos Con Valor -
+          </h6>
         </div>
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-4">
-            
-            <h6>•Amabilidad•</h6>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            
-            <h6>•Respeto•</h6>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            
-            <h6>•Diligencia•</h6>
+        <div class="iconosContacto p-md-0 container p-3">
+          <div class="row text-center">
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="far fa-laugh-wink fa-4x pb-1"></i></i></div>
+              <h6>•Amabilidad•</h6>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="far fa-handshake fa-4x pb-1"></i></div>
+              <h6>•Respeto•</h6>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div> <i class="fas fa-wind fa-4x pb-1"></i></div>
+              <h6>•Diligencia•</h6>
+            </div>
           </div>
         </div>
       </div>
 
+    
 
-      <div class="container pb-4 pt-md-4">
+      <div id="masInfo" class="container pb-4 pt-md-5">
 
         <div class="row">
-          <div class="col-md-6 pb-3">
+          <div id="formulario" class="col-md-6 pb-3">
             <h3>Respondemos Al Instante <i class="fa fa-bell"></i></h3>
             <form class="contact-form">
               <div class="form-group">
@@ -688,7 +697,7 @@
               <a href="#" class="botonSection btn  btn-outline-secondary">Enviar <i class="fa fa-paper-plane-o"></i></a>
             </form>
           </div>
-          <div class="col-md-6">
+          <div id="infoUbicacion" class="col-md-6">
             <div>
 
               <h3>AZmaquilas</h3>
@@ -723,10 +732,8 @@
         </div>
       </div>
 
-    </div id="mapa">
-    <div class="container-fluid d-flex m-0 p-0">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d22208.741011983606!2d-76.51593576145623!3d3.327277087299196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m3!3m2!1d3.3284715!2d-76.5217983!4m0!5e0!3m2!1sen!2sco!4v1605156633819!5m2!1sen!2sco" width="1920" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+  
+   
     <!-- ---------------------- -->
   </main>
   <!--  -->
@@ -811,6 +818,10 @@
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+  new WOW().init();
   </script>
 </body>
 
