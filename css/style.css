@@ -57,12 +57,6 @@ body header #inicioMaquila .itemsInicio .botonPrincipal {
   border-radius: 50px;
 }
 
-body header .carousel-caption {
-  top: 0;
-  opacity: 70%;
-  text-align: end;
-}
-
 body main {
   padding-top: 2em;
   background-image: url(../imgs/35831.jpg);
@@ -370,4 +364,4 @@ body main #contacto ul li a .fa {
 body footer {
   background: #122046;
 }
-/*# sourceMappingURL=stylePrueba.css.map */
+/*# sourceMappingURL=style.css.map */

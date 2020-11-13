@@ -5,7 +5,6 @@ $brandColor: #122046;
 // Fuentes
 $fontPrimary: "Poppins", sans-serif;
 $fontLogo: "Audiowide", cursive;
-$fontOpacitySpcial: 70%;
 //botones
 $borderRadiusBotonPrimary: 50px;
 //paddings
@@ -58,12 +57,8 @@ body {
             }
             
         }
-        .carousel-caption{
-            top: 0;
-            opacity: $fontOpacitySpcial;
-            text-align: end;
-        }
-        }
+
+    }
     main{
         @media (max-width: 767.98px) { 
             h2, h3{
